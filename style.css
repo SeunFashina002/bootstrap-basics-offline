@@ -1,0 +1,15 @@
+body::before{
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+.rounded-circle{
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+  .input-group {
+    width: 50%;
+  }
+}
